@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Slider | By LINPING</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <h1>PKCOMO</h1>
+        <p>learning everything</p>
+        <button class="create-account" id="open">Create Account</button>
+    </header>
+    <div class="container">
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque officia totam pariatur quasi architecto, labore voluptatum reiciendis asperiores quidem, hic quod! Necessitatibus corrupti voluptas hic error vero dolor eligendi? Recusandae alias iste repellat eius quis, aliquam eum veniam aspernatur veritatis vel qui expedita maxime mollitia autem aperiam itaque voluptates.</p>
+        <h2>Game Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic deserunt ipsum veritatis, sunt incidunt nemo ullam esse. Asperiores illum, iusto cupiditate dicta fugiat minima enim totam nobis deserunt ipsa eius molestiae fuga a eaque quos quia ipsam! Accusamus totam autem magnam eos possimus tempore repellat, accusantium iusto, quas libero placeat. Reprehenderit ex aspernatur assumenda nam minus cumque molestias dolorum aliquam sequi ipsa consectetur, nulla labore pariatur eveniet dicta quaerat fuga? Culpa atque doloremque perspiciatis cumque voluptas nam a iusto aspernatur consequuntur qui esse reprehenderit aut, veniam, possimus et error tenetur, quaerat quis rem. Repellat accusamus laboriosam, impedit rem omnis culpa.</p>
+
+    </div>
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Create Account</h3>
+            </div>
+            <div class="modal-content">
+                <p>Form Create Account</p>
+                <form  class="modal-form">
+                    <div>
+                        <label for="">Username</label>
+                        <input type="text" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" class="form-input">
+                    </div>
+                    <input type="submit" value="create" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

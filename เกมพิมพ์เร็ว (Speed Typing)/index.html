@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <button id="level-btn"  class="level-btn">
+        <i class="fa-solid fa-gear"></i>
+    </button>
+    <div class="settings" id="settings">
+        <form id="level-form">
+            <label for="">Level :</label>
+            <select id="level">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </form>
+    </div>
+    <div class="container">
+        <h2>SPEED TYPING</h2>
+        <h1 id="word" class="word"></h1>
+        <input type="text" name="" id="text" autocomplete="off" placeholder="Enter Word">
+        <p class="time-container">Time
+            <span id="time"> </span>s</p>
+        <p class="score-container">score 
+            <span id="score"> </span>point</p>
+        <div class="gameover-container" id="gameover-container">
+            GAME OVER !!!!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

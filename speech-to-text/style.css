@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.5em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.control{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.control:active{
+    transform: scale(0.90);
+}
+.record{
+    color: #fff;
+    background: rgb(240, 70, 70);
+}
+.pause{
+    color: #fff;
+    background: rgb(54, 54, 245);
+}
+.title{
+    color: #fff;
+    background: rgb(50, 193, 236);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
